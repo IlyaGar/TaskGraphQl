@@ -1,5 +1,5 @@
 # TaskGraphQl
-
+```sql
 INSERT INTO "Statuses" ("Id", "Title") VALUES
 (1, 'New'),
 (2, 'Open'),
@@ -93,3 +93,4 @@ INSERT INTO "Tasks" ("Title", "Description", "CreatedAt", "StatusId", "CreatedBy
 ('Task 48', 'Description 48', CURRENT_DATE - INTERVAL '3 days', 4, 'cf1504f8-bd18-4c60-9b11-909efd79555b'),
 ('Task 49', 'Description 49', CURRENT_DATE - INTERVAL '2 days', 1, 'cf1504f8-bd18-4c60-9b11-909efd79555b'),
 ('Task 50', 'Description 50', CURRENT_DATE - INTERVAL '1 day', 2, 'cf1504f8-bd18-4c60-9b11-909efd79555b');
+```
